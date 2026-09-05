@@ -33,6 +33,13 @@ An assembler and the virtual machine that runs its bytecode. Lexing, parsing, in
 and label resolution on one side; a shared memory arena, per-process cycle costs and a scheduler on
 the other.
 
+
+**[MyWorld](https://github.com/EdgarLec/Epitech-MyWorld)** · C, CSFML
+A 3D terrain generator and editor with no graphics API underneath. Perlin noise for the landscape,
+4×4 matrices and projection written by hand, triangles depth-sorted and shaded on the CPU — plus the
+whole editor around it: variable-size brushes, menus, save and load.
+[Demo](https://youtu.be/f5QDL-e1gMY)
+
 **[Arcade](https://github.com/EdgarLec/Arcade)** · C++, dlopen
 A game platform where neither the games nor the graphics backends are linked in. The core knows two
 abstract interfaces; everything else is a shared object loaded at runtime and swappable without
